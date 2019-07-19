@@ -1,3 +1,5 @@
+## Akan Names(Ghana)
+By Eve Ishimwe
 ## This website will be helpful to display names of people who entered their birthday dates.
 ## Description
 This Akan Website display names for a baby girl/boy right after birthday by taking his birthday dates and his gender and they get his/her name in Akan.
