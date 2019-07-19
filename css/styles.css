@@ -5,10 +5,14 @@
     background-size: cover;
 
 }
-#day {
-    text-align: center;
-   
+.dates{
+    /* text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between; 
+    line-height: 15px;
+    display: inline-block; */
 }
 #select {
-    
+
 }
