@@ -1,7 +1,7 @@
-function birth {
-    var day = parseFloat(document.getElementById('day').value);
-    var month = parseFloat(document.getElementById('month').value);
-    var year = parseFloat(document.getElementById('day').value);
+function birth() {
+    var d = parseFloat(document.getElementById('d').value);
+    var m = parseFloat(document.getElementById('m').value);
+    var y = parseFloat(document.getElementById('y').value);
     var c = (y - 1) / 100 + 1;
     var dayoftheweek = (c / 4 - 2 * c - 1 + 5 * y / 4 + 26 * (m + 1) / 10 + d) % 7;
     console.log(dayoftheweek);
@@ -11,7 +11,7 @@ function birth {
     var choice = document.getElementById('select').value;
     if (choice === "female") {
         console.log(female[Math.round(dayoftheweek)]);
-        document.getElementById alert(('Akan')).innerHTML = female[Math.round(dayoftheweek)];
+        document.getElementById ('Akan').innerHTML = female[Math.round(dayoftheweek)];
     }
     else if (choice === "male") {
         console.log(male[Math.round(dayoftheweek)]);
@@ -20,4 +20,4 @@ function birth {
     else {
         console.log("Invalid input");
     }
-    
+}
