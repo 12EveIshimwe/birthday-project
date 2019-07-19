@@ -4,6 +4,7 @@ function birth() {
     var y = parseFloat(document.getElementById('y').value);
     var c = (y - 1) / 100 + 1;
     var dayoftheweek = (c / 4 - 2 * c - 1 + 5 * y / 4 + 26 * (m + 1) / 10 + d) % 7;
+    var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     console.log(dayoftheweek);
     document.getElementById('result').innerHTML = Math.round(dayoftheweek);
     var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
