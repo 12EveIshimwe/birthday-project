@@ -1,0 +1,9 @@
+ body {
+    background-image: url("file:///home/wecode/Documents/birthday/picture/eve.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ .dates { 
+    padding:30px;
+} 
