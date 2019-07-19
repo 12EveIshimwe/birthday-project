@@ -19,6 +19,6 @@ function birth() {
         document.getElementById('Akan').innerHTML = female[Math.round(dayoftheweek)];
     }
     else {
-        console.log("Invalid input");
+        console.log("Invalid output");
     }
 }
