@@ -3,7 +3,7 @@
     /* background-image: url("https://media2.picsearch.com/is?7C_Km8V-NoCDgqpE0AVGDjAx-PYgOxCc4NHPTxTco4I&height=230"); */
     background-image: url("https://media3.picsearch.com/is?MJij1IhBU9U9kyNqdjqmjByfoPjl30LlYIhkpj_NQ-M&height=192");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 .dates{
@@ -16,4 +16,5 @@
 }
 .jumbotron {
     padding: 20px;
+    text-align: center;
 }
