@@ -6,4 +6,12 @@ function birth {
     var dayoftheweek = (c / 4 - 2 * c - 1 + 5 * y / 4 + 26 * (m + 1) / 10 + d) % 7;
     console.log(dayoftheweek);
     document.getElementById('result').innerHTML = Math.round(dayof the week);
-    va
+    var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var choice = document.getElementById('select').value;
+    if (choice === "female") {
+        console.log
+    }
+
+        
+        ]
