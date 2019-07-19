@@ -1,7 +1,7 @@
  body {
     /* background-image: url("file:///home/wecode/Documents/birthday/picture/eve.jpg"); */
     /* background-image: url("https://media2.picsearch.com/is?7C_Km8V-NoCDgqpE0AVGDjAx-PYgOxCc4NHPTxTco4I&height=230"); */
-    background-image: url("https://media4.picsearch.com/is?fcnrva42ztK04DX15w9-b6ZLTR3R-GXC3ulradX5fX4&height=255");
+    background-image: url("http://childrenofallnations.com/wp-content/uploads/2012/05/girls.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -13,8 +13,19 @@
     justify-content: space-between; 
     line-height: 15px;
     display: inline-block; */
+    position: relative;
 }
 .jumbotron {
     padding: 20px;
     text-align: center;
+    font-style: italic;
+}
+#day {
+    position:relative;
+}
+#month {
+    position:relative;
+}
+#year {
+    position:relative;
 }
