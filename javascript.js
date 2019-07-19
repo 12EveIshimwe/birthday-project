@@ -20,5 +20,4 @@ function birth {
     else {
         console.log("Invalid input");
     }
-        
-        
+    
