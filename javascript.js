@@ -11,7 +11,7 @@ function birth {
     var choice = document.getElementById('select').value;
     if (choice === "female") {
         console.log(female[Math.round(dayoftheweek)]);
-        document.getElementById('Akan').innerHTML = female[Math.round(dayoftheweek)];
+        document.getElementById alert(('Akan')).innerHTML = female[Math.round(dayoftheweek)];
     }
     else if (choice === "male") {
         console.log(male[Math.round(dayoftheweek)]);
