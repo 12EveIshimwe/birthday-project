@@ -1,6 +1,6 @@
  body {
     /* background-image: url("file:///home/wecode/Documents/birthday/picture/eve.jpg"); */
-    background-image: "https://media2.picsearch.com/is?7C_Km8V-NoCDgqpE0AVGDjAx-PYgOxCc4NHPTxTco4I&height=230";
+    background-image: url("https://media2.picsearch.com/is?7C_Km8V-NoCDgqpE0AVGDjAx-PYgOxCc4NHPTxTco4I&height=230");
     background-repeat: no-repeat;
     background-size: cover;
 
